@@ -24,7 +24,7 @@ def draw_histogram(img):
     #y = h행렬의 중앙의 가로축을 기준으로 뒤집음.
     return y
 
-img = cv.imread('starbucks_logo.png', cv.IMREAD_COLOR)
+img = cv.imread('bmw.PNG', cv.IMREAD_COLOR)
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 
 line = draw_histogram(gray)
